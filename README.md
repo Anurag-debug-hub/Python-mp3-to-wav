@@ -1,8 +1,14 @@
+install pydub in termux by
+pkg install pydub and for linux and debian pkg install ffmpeg.
+
+
+
+
 from os import path
 from pydub import AudioSegment
 
 # files
-src = "transcript.mp3"
+ scrap= "transcript.mp3"
 dst = "test.wav"
 
 # convert wav to mp3
