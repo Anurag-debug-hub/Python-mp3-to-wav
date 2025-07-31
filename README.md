@@ -1,2 +1,10 @@
-# Python-mp3-to-wav
-This code converts mp3 audio to wav . 
+from os import path
+from pydub import AudioSegment
+
+# files
+src = "transcript.mp3"
+dst = "test.wav"
+
+# convert wav to mp3
+sound = AudioSegment.from_mp3(src)
+sound.export(dst, format="wav"
